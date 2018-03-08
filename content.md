@@ -3,8 +3,6 @@ count: false
 
 # Multi-task Learning for Aspect-level Sentiment Analysis
 
-## Weekly report
-
 .author[Wen Weihuang]
 
 .date[March 08, 2018]
@@ -13,34 +11,20 @@ count: false
 
 # What is sentiment analysis?
 
-Human-understandable justifications leading to insights about the **inner** workings
-
-is **subjective** due to different levels of human understanding
-
-- intuitive meanings of all model parameters
-- explanation for the working of the learning algorithm
-- textual description/visualization
-- ...
+Todo
 
 ---
 
 # What is aspect-level sentiment analysis?
 
-We need interpretability for
+Todo
 
-- **Science**: We want to gain knowledge
-- **Debugging**: Why it doesn't work? Why it works?
-- **Safety**: We cannot fully test the systems by enumerating all possible inputs, but we want to make sure the system is making sound decisions
-- **Legal/ethics**: ...
-
-.font-7[📄 "Interpretable Machine Learning: The fuss, the concrete and the questions", *ICML Tutorial*, \cite{2017iml}]
+---
 
 # What is multi-task learning
 
+Todo
 
-## My view
-
-Need general guidance on how to design/tune deep models
 
 ---
 
