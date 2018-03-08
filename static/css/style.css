@@ -1,0 +1,202 @@
+body {
+    color: var(--color-default);
+    font-family: 'CMU Sans Serif', 'Microsoft Yahei', 'Segoe UI Emoji';
+}
+
+p {
+    line-height: 1.3;
+}
+
+p,
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: .6em;
+}
+
+h1,
+h2,
+h3 {
+    color: var(--color-accent);
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+
+a {
+    color: var(--color-default);
+}
+
+img {
+    max-height: 350px;
+    /* TODO: */
+}
+
+.remark-container {
+    background: #525659;
+}
+
+.remark-slide-scaler {
+    box-shadow: 0 0 15px #141619;
+}
+
+.remark-slide-content>table:not(:first-child) {
+    border-collapse: collapse;
+    border-top: 2px solid var(--color-default);
+    border-bottom: 2px solid var(--color-default);
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+table thead {
+    border-bottom: 1px solid var(--color-default);
+}
+
+table th,
+table td {
+    padding: 0 .5em .1em .5em;
+}
+
+table thead tr:first-child th,
+table tbody tr:first-child td {
+    padding-top: .1em;
+}
+
+.remark-slide-content h1 {
+    font-size: 1.25em;
+}
+
+.remark-slide-content h2,
+.remark-slide-content h3 {
+    font-size: 1em;
+}
+
+.remark-slide-content>h1 {
+    margin-bottom: .6rem;
+}
+
+pre {
+    background: #d9d9d9;
+    border-radius: 3px;
+    padding: .5rem;
+}
+
+.remark-code,
+.remark-inline-code {
+    font-family: 'CMU Typewriter Text';
+    font-size: .9em;
+}
+
+
+/* List style */
+
+ul {
+    list-style: none;
+}
+
+ul li:before {
+    content: "";
+    border-color: transparent var(--color-accent);
+    border-style: solid;
+    border-width: 0.2em 0 0.2em 0.45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
+}
+
+ul li {
+    margin-top: -0.2em;
+}
+
+p+ul {
+    /* Because of custom list style */
+    margin-top: -.5rem;
+}
+
+li p {
+    margin-bottom: 0;
+}
+
+ol {
+    list-style: none;
+    counter-reset: li;
+}
+
+ol li::before {
+    content: counter(li) ".";
+    color: var(--color-accent);
+    display: inline-block;
+    width: 1.3em;
+    margin-left: -1.3em;
+}
+
+ol li {
+    counter-increment: li;
+    line-height: 1.5;
+}
+
+p+ol {
+    margin-top: -.2rem;
+}
+
+ul ul {
+    margin-bottom: 0;
+}
+
+/* Frame content margin */
+
+.remark-slide-content {
+    padding: 0.8em 1em;
+}
+
+.remark-slide-content>:not(:first-child) {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
+/* Make preview size = print size */
+
+.remark-slide-scaler {
+    width: 672px!important;
+    height: 504px!important;
+}
+
+
+/* Page number */
+
+.remark-slide-number {
+    font-size: 0.5em;
+}
+
+.remark-slide-content>.remark-slide-number {
+    margin: 0;
+}
+
+.no-number .remark-slide-number {
+    display: none;
+}
+
+
+/* Print */
+
+@page {
+    size: 672px 504px;
+    margin: 0;
+}
+
+@media print {
+    .remark-slide-scaler {
+        width: 100% !important;
+        height: 100% !important;
+        transform: scale(1) !important;
+        top: 0 !important;
+        left: 0 !important;
+    }
+    .remark-slide-scaler {
+        box-shadow: none;
+    }
+}
