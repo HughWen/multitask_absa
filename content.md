@@ -11,17 +11,14 @@ count: false
 
 # Outline
 
-- What is sentiment analysis
 - What is aspect-level sentiment analysis
 - What is multi-task learning
 - Why multi-task learning
 - Recent work
+- Model description
+- Experiments and analysis
+- Conclusion and future work
 
----
-
-# What is sentiment analysis
-
-Todo
 
 ---
 
@@ -46,3 +43,4 @@ Todo
 # Recent Work
 
 Todo
+
