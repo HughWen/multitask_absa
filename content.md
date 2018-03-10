@@ -5,13 +5,15 @@ count: false
 
 .author[Wen Weihuang]
 
-.date[March 08, 2018]
+.date[March 10, 2018]
 
 ---
 
 # Outline
 
 - What is aspect-level sentiment analysis
+    - Sentiment analysis
+    - Aspect-level sentiment analysis
 - What is multi-task learning
 - Why multi-task learning
 - Recent work
