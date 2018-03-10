@@ -42,7 +42,7 @@ count: false
 
 ---
 
-## Aspect-level sentiment analysis
+.subtitle[Aspect-level sentiment analysis]
 
 Todo
 
