@@ -62,8 +62,11 @@ Todo
 
 # Recent Work
 
-Todo
-
+- Word embedding
+    - Word2Vec
+        - Continuous Bag-of-Words
+        - Skip-Gram
+    - Global Vector
 ---
 
 # Model description
