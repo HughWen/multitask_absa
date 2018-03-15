@@ -40,11 +40,13 @@ count: false
 
 <q>Since early 2000, sentiment analysis has grown to be one of the most active research areas in natural language processing (NLP). It is also widely studied in data mining, Web mining, text mining, and information retrieval. </q>
 
+<q>Researchers have mainly studied sentiment analysis at three levels of granularity: document level, sentence level, and .alert[**aspect level**].</q>
+
 ---
 
 .subtitle[Aspect-level sentiment analysis]
 
-Todo
+<q>Compared with document level and sentence level sentiment analysis, aspect level sentiment analysis or aspect-based sentiment analysis is more fine-grained. Its task is to extract and summarize people's opinions expressed on entities and aspects/features of entities, which are also called targets.</q>
 
 ---
 
@@ -60,15 +62,29 @@ Todo
 
 ---
 
-# Recent Work
+# Recent work
 
+- Artificial neural networks
 - Word embedding
     - Word2Vec
         - Continuous Bag-of-Words
         - Skip-Gram
     - Global Vector
-
 - Autoencoder and denoising autoencoder
+- Convolutional neural network
+- Recurrent neural network (RNN)
+    - Long short-term memory network (LSTM)
+    - Bidirectional RNN
+    - Gated Recurrent Unit (GRU)
+
+---
+
+# Recent work
+- Attention mechanism with recurrent neural network
+- Memory network
+- Recursive neural network
+
+
 ---
 
 # Model description
