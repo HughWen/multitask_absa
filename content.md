@@ -40,7 +40,11 @@ count: false
 
 <q>Since early 2000, sentiment analysis has grown to be one of the most active research areas in natural language processing (NLP). It is also widely studied in data mining, Web mining, text mining, and information retrieval. </q>
 
-<q>Researchers have mainly studied sentiment analysis at three levels of granularity: document level, sentence level, and .alert[**aspect level**].</q>
+Researchers have mainly studied sentiment analysis at three levels of granularity:
+
+- document level
+- sentence level
+- .alert[**aspect level**].
 
 ---
 
@@ -48,6 +52,7 @@ count: false
 
 <q>Compared with document level and sentence level sentiment analysis, aspect level sentiment analysis or aspect-based sentiment analysis is more fine-grained. Its task is to extract and summarize people's opinions expressed on entities and aspects/features of entities, which are also called targets.</q>
 
+<q></q>
 ---
 
 # What is multi-task learning
