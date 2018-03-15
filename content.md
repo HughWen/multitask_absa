@@ -41,10 +41,9 @@ count: false
 <q>Since early 2000, sentiment analysis has grown to be one of the most active research areas in natural language processing (NLP). It is also widely studied in data mining, Web mining, text mining, and information retrieval. </q>
 
 Researchers have mainly studied sentiment analysis at three levels of granularity:
-
 - document level
 - sentence level
-- .alert[**aspect level**].
+- .alert[**aspect level**]
 
 ---
 
@@ -52,7 +51,23 @@ Researchers have mainly studied sentiment analysis at three levels of granularit
 
 <q>Compared with document level and sentence level sentiment analysis, aspect level sentiment analysis or aspect-based sentiment analysis is more fine-grained. Its task is to extract and summarize people's opinions expressed on entities and aspects/features of entities, which are also called targets.</q>
 
-<q></q>
+<q>For example, in a product review, it aims to summarize positive and negative opinions on different aspects of the product respectively, although the general sentiment on the product could be positive or negative. The whole task of aspect-based sentiment analysis consists of several subtasks such as .alert[**aspect extraction**], .alert[**entity extraction**] and .alert[**aspect sentiment classification**].</q>
+
+---
+.subtitle[Aspect-level sentiment analysis]
+
+.dl[Demo: "the voice quality of iPhone is great, but its battery sucks".
+
+- entity extraction:
+    -  "iPhone"
+- aspect extraction:
+    -  "voice quality"
+    -  "battery"
+- aspect sentiment classification: 
+    - "voice quality": positive
+    - "battery": negative
+]
+
 ---
 
 # What is multi-task learning
