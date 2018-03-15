@@ -67,6 +67,8 @@ Todo
         - Continuous Bag-of-Words
         - Skip-Gram
     - Global Vector
+
+- Autoencoder and denoising autoencoder
 ---
 
 # Model description
