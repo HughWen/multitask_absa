@@ -64,8 +64,8 @@ Researchers have mainly studied sentiment analysis at three levels of granularit
     -  "voice quality"
     -  "battery"
 - aspect sentiment classification: 
-    - "voice quality": positive
-    - "battery": negative
+    - "voice quality": 👍
+    - "battery": 👎
 ]
 
 ---
@@ -103,6 +103,7 @@ Todo
 ---
 
 # Recent work
+
 - Attention mechanism with recurrent neural network
 - Memory network
 - Recursive neural network
