@@ -32,7 +32,7 @@ count: false
 
 ---
 
-.subtitle[Sentiment analysis]
+## Sentiment analysis
 
 .font-7[📄 "Deep Learning for Sentiment Analysis: A Survey", Lei Zhang, Shuai Wang, Bing Liu, *arxiv.org*]
 
