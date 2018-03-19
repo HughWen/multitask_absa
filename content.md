@@ -7,7 +7,7 @@ count: false
 
 .author[Wen Weihuang]
 
-.date[March 10, 2018]
+.date[March 19, 2018]
 
 ---
 
@@ -72,7 +72,9 @@ Researchers have mainly studied sentiment analysis at three levels of granularit
 
 # What is multi-task learning
 
-Todo
+.font-7[📄 "An overview of multi-task learning", Yu Zhang, Qiang Yang, *National Science Review 2018*]
+
+<q>As a promising area in machine learning, MTL aims to leverage useful information contained in multiple learning tasks to help learn a more accurate learner for each task. **Based on an assumption that all the task, or at least a subset of them, are related, jointly learning multiple tasks is empirically and theoretically found to lead to better performance than learning them independently.**</q>
 
 ---
 
@@ -94,8 +96,9 @@ Todo
 - Convolutional neural network
 - Recurrent neural network (RNN)
     - Long short-term memory network (LSTM)
-    - Bidirectional RNN
     - Gated Recurrent Unit (GRU)
+    - Bidirectional RNN
+
 
 ---
 
@@ -103,7 +106,6 @@ Todo
 - Attention mechanism with recurrent neural network
 - Memory network
 - Recursive neural network
-
 
 ---
 
