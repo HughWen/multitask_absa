@@ -70,15 +70,15 @@ Researchers have mainly studied sentiment analysis at three levels of granularit
 
 ---
 
-# What is multi-task learning
+# What is multi-task learning (MTL)
 
 .font-7[📄 "An overview of multi-task learning", Yu Zhang, Qiang Yang, *National Science Review 2018*]
 
 <q>As a promising area in machine learning, MTL aims to leverage useful information contained in multiple learning tasks to help learn a more accurate learner for each task. **Based on an assumption that all the task, or at least a subset of them, are related, jointly learning multiple tasks is empirically and theoretically found to lead to better performance than learning them independently.**</q>
 
-<q>Test</q>
+<q>MTL can be viewed as one way for machines to mimic human learning activities since people often transfer knowledge from one task to another and vice versa when tese tasks are related. **One example from our own experience is that the skills for playing squash and tennis can help improve each other**.</q>
 
-<q>Test again</q>
+<q>MTL is related to other areas in machine learning, including transfer learning, multi-label learning and multi-output regression, but exhibits different characteristics.</q>
 
 ---
 
