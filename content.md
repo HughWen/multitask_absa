@@ -104,6 +104,7 @@ Two elementary factors for MTL:
 - multi-task active learning
 - multi-task reinforcement learning
 - multi-task online learning
+- multi-task multi-view learning
 ]
 
 
