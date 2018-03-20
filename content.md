@@ -7,7 +7,7 @@ count: false
 
 .author[Wen Weihuang]
 
-.date[March 19, 2018]
+.date[March 20, 2018]
 
 ---
 
@@ -47,7 +47,7 @@ Researchers have mainly studied sentiment analysis at three levels of granularit
 
 ---
 
-.subtitle[Aspect-level sentiment analysis]
+## Aspect-level sentiment analysis
 
 <q>Compared with document level and sentence level sentiment analysis, aspect level sentiment analysis or aspect-based sentiment analysis is more fine-grained. Its task is to extract and summarize people's opinions expressed on entities and aspects/features of entities, which are also called targets.</q>
 
@@ -56,7 +56,7 @@ Researchers have mainly studied sentiment analysis at three levels of granularit
 ---
 .subtitle[Aspect-level sentiment analysis]
 
-.dl[Demo: "the voice quality of iPhone is great, but its battery sucks".
+.dl[**Demo**: "the voice quality of iPhone is great, but its battery sucks".
 
 - entity extraction:
     -  "iPhone"
@@ -79,6 +79,34 @@ Researchers have mainly studied sentiment analysis at three levels of granularit
 <q>MTL can be viewed as one way for machines to mimic human learning activities since people often transfer knowledge from one task to another and vice versa when tese tasks are related. **One example from our own experience is that the skills for playing squash and tennis can help improve each other**.</q>
 
 <q>MTL is related to other areas in machine learning, including transfer learning, multi-label learning and multi-output regression, but exhibits different characteristics.</q>
+
+---
+
+# What is multi-task learning (MTL)
+
+<q>As a promising learning paradigm, MTL has been applied to several areas, including computer vision, bioinformatics, health informatics, speech, .alert[natural language processing], web applications and ubiquitous computing, and several representative applications in each area are presented.</q>
+
+.dl[**Definition**: (Multi-task learning) Given m lerning tasks .math[{\lbrace T_i \rbrace}_{i=1}^{m}] where all the tasks or a subset of them are related but not identical, multi-task learning aims to help improve the learning of a model for .math[T_i] by using the knowledge contained in the *m* tasks.
+]
+
+Two elementary factors for MTL:
+- the definition of task
+- the task relatedness
+
+---
+
+# What is multi-task learning (MTL)
+
+.dl[**Several setting of MTL**:
+- .alert[multi-task supervised learning (MTSL)]
+- multi-task unsupervised learning
+- multi-task semi-supervised learning
+- multi-task active learning
+- multi-task reinforcement learning
+- multi-task online learning
+]
+
+
 
 ---
 
