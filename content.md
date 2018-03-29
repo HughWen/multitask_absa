@@ -145,7 +145,13 @@ Todo
 
 # Model description
 
-Todo
+<p>
+.math[
+\begin{Bmatrix}
+   a & b \\
+   c & d
+\end{Bmatrix}
+]</p>
 
 ---
 
