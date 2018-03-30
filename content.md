@@ -145,13 +145,20 @@ Todo
 
 # Model description
 
-<p>
-.math[
-\begin{Bmatrix}
-   a & b \\
-   c & d
-\end{Bmatrix}
-]</p>
+<div class="math">
+\begin{bmatrix}
+a  \\
+b
+\end{bmatrix}
+</div>
+
+
+<!-- .math[
+\begin{bmatrix}
+a & b \\\\
+c & d
+\end{bmatrix}
+] -->
 
 ---
 
