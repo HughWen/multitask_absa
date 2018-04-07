@@ -113,7 +113,7 @@ Two elementary factors for MTL:
 
 # Why multi-task learning
 
-Todo
+- Multi-task learning can provide an elegant way to access resources developed for similar tasks.
 
 ---
 
@@ -152,13 +152,6 @@ b
 \end{bmatrix}
 </div>
 
-
-<!-- .math[
-\begin{bmatrix}
-a & b \\\\
-c & d
-\end{bmatrix}
-] -->
 
 ---
 
