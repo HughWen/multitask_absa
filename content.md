@@ -115,7 +115,16 @@ Two elementary factors for MTL:
 
 .font-7[📄 "Multitask Learning", Rich Caruana, 1997]
 
-.col-5[![mt_words](imgs/mt_words.png)].col-5[![cookies](imgs/cookies.jpg)]
+<!-- .col-4[![mt_words](imgs/mt_words_2.png)].col-4[![cookies](imgs/cookies.jpg)] -->
+
+<div class="columns"  style="text-align:middle">
+  <div class="column is-three-fifths">
+    <img src="imgs/mt_words_2.png">
+  </div>
+  <div class="column">
+    <img src="imgs/cookies.jpg">
+  </div>
+</div>
 
 - Multi-task learning can improves learning for one task by using the information contained in training signals of other related tasks.
 - By jointly learning correlated tasks, the amount of usable data increases.
