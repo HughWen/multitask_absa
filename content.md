@@ -113,10 +113,12 @@ Two elementary factors for MTL:
 
 # Why multi-task learning
 
+.font-7[📄 "Multitask Learning", Rich Caruana, 1997]
+
 .col-5[![mt_words](imgs/mt_words.png)].col-5[![cookies](imgs/cookies.jpg)]
 
 - Multi-task learning can improves learning for one task by using the information contained in training signals of other related tasks.
-
+- By jointly learning correlated tasks, the amount of usable data increases.
 ---
 
 # Recent work
