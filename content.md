@@ -7,7 +7,7 @@ count: false
 
 .author[Wen Weihuang]
 
-.date[March 20, 2018]
+.date[April 8, 2018]
 
 ---
 
@@ -113,7 +113,9 @@ Two elementary factors for MTL:
 
 # Why multi-task learning
 
-- Multi-task learning can provide an elegant way to access resources developed for similar tasks.
+.col-5[![mt_words](imgs/mt_words.png)].col-5[![cookies](imgs/cookies.jpg)]
+
+- Multi-task learning can improves learning for one task by using the information contained in training signals of other related tasks.
 
 ---
 
