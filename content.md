@@ -119,6 +119,7 @@ Two elementary factors for MTL:
 
 - Multi-task learning can improves learning for one task by using the information contained in training signals of other related tasks.
 - By jointly learning correlated tasks, the amount of usable data increases.
+
 ---
 
 # Recent work
