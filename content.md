@@ -166,7 +166,21 @@ b
 
 # Experiments and analysis
 
-Todo
+---
+
+## Dataset
+
+SemEval aspect-based sentiment analysis (ABSA) challenge:
+- SemEval Challenge 2014 task 4
+    - Domain: ***laptop***
+    - Size: ***3595***
+- SemEval Challenge 2015 task 12
+    - Domain: ***restaurant***
+    - Size: ***2000***
+- SemEval Challenge 2016 task 5
+    - Domain: ***restaurant***
+    - Size: ***2676***
+
 
 ---
 
