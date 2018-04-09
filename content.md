@@ -107,8 +107,6 @@ Two elementary factors for MTL:
 - multi-task multi-view learning
 ]
 
-
-
 ---
 
 # Why multi-task learning
@@ -139,13 +137,10 @@ Two elementary factors for MTL:
         - Continuous Bag-of-Words
         - Skip-Gram
     - Global Vector
-- Autoencoder and denoising autoencoder
-- Convolutional neural network
 - Recurrent neural network (RNN)
     - Long short-term memory network (LSTM)
     - Gated Recurrent Unit (GRU)
     - Bidirectional RNN
-
 
 ---
 
