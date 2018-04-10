@@ -168,7 +168,7 @@ b
 
 ---
 
-## Dataset
+## Dataset description
 
 SemEval aspect-based sentiment analysis (ABSA) challenge:
 - SemEval Challenge 2014 task 4
@@ -180,7 +180,6 @@ SemEval aspect-based sentiment analysis (ABSA) challenge:
 - SemEval Challenge 2016 task 5
     - Domain: ***restaurant***
     - Size: ***2676***
-
 
 ---
 
