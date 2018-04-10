@@ -131,7 +131,6 @@ Two elementary factors for MTL:
 
 # Recent work
 
-- Artificial neural networks
 - Word embedding
     - Word2Vec
         - Continuous Bag-of-Words
@@ -148,7 +147,6 @@ Two elementary factors for MTL:
 
 - Attention mechanism with recurrent neural network
 - Memory network
-- Recursive neural network
 
 ---
 
