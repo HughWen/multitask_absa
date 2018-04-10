@@ -125,7 +125,7 @@ Two elementary factors for MTL:
 </div>
 
 - Multi-task learning can improves learning for one task by using the information contained in training signals of other related tasks.
-- By jointly learning correlated tasks, the amount of usable data increases.
+- The training data of ABSA is extremely sparse, by jointly learning correlated tasks, the amount of usable data increases.
 
 ---
 
