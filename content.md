@@ -13,11 +13,8 @@ count: false
 
 # Outline
 
-- What is aspect-level sentiment analysis
-    - Sentiment analysis
-    - Aspect-level sentiment analysis
-- What is multi-task learning
-- Why multi-task learning
+- Problem Description
+- Backgroud
 - Recent Work
 - Model description
 - Experiments and analysis
@@ -56,7 +53,7 @@ Researchers have mainly studied sentiment analysis at three levels of granularit
 ---
 .subtitle[Aspect-level sentiment analysis]
 
-.dl[**Demo**: "the voice quality of iPhone is great, but its battery sucks".
+.dl[**Demo**: "The voice quality of iPhone is great, but its battery sucks".
 
 - entity extraction:
     -  "iPhone"
