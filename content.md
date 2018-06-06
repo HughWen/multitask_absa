@@ -126,7 +126,7 @@ Two elementary factors for MTL:
 
 ---
 
-# Recent work
+# Background
 
 - Word embedding
     - Word2Vec
